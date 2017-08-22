@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>David Chu's China Bistro</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+  </head>
+<body>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+      <div class="navbar-header">
+        <div class="navbar-brand">
+            <a href="index.html"><h1>Food,LLC</h1></a>
+            
+          </div>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          </div>
+
+          <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+            <li>
+               Chicken
+            </li>
+            <hr class="visible-xs">
+            <li>
+               Beef
+            </li>
+            <hr class="visible-xs">
+            <li>
+               Sushi
+            </li>
+            
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div>
+    </nav>
+
+  </header>
+  <div id="main-content" class="container">
+    <h2 id="menu-categories-title" class="text-center">Our Menu</h2>
+    </div>
+    <div id="sub-content" class="container">
+      <section class="row">
+      <div class="col-md-12 col-sm-12 col-xs-12 col-xxs-12">
+        <h3>Chicken</h3>
+        
+      <p>
+       Well, the Navigation Structure is actually going to be pretty simple. When the user first comes to the front page, they'll have an option to click on this menu button, or they can click on this menu tile, and they will end up at the exactly the same place and where they will dub is the menu categories page. So, this is the menu categories page and all this page will do is list categories for us that are part of this menu with a picture associated with it and the name of the category. Now, one of the categories is called specials well that should remind you of something, on the very front page we have a tile called specials. Well, all that is, is just a direct link to a particular menu category called specials. So, point is when they click in the menu they will end up in this view, which is going to list, all the menu categories with their pictures and the names of the category. The same thing will happen if they click on the menu button right here, they will also end up with this menu category page. Okay, so let's go back to the code editor and we'll start coding up this page. Okay, so here I am in sublime text in examples of folder lecture 37 in the after folder. And even though the structure of the page or the pages in the end product is going to be a little bit different once we introduce some JavaScript and start writing dynamic HTML at this point, it's much easier, since it's a design stage, it's much easier for us to simply copy in the index HTML, and call it something like menu categories.HTML. So, we'll go ahead and do that. We'll just call duplicate and the reason we're calling duplicate is because a lot of the things that are inside index.HTML are going to be exactly the same. So, the header and the footer and the menu items, they're all going to be exactly the same it's the main content that's going to change. So, we'll call this menu-categories the HTML. So, there's our menu-categories HTML, we could close index HTML, we don't need it for now. So now, what we need to do is we need to wipe out, out of the menu-categories.HTML, anything that has nothing to do with that page. Well, all the menus, the collapsible things, they all have to do with it and the only thing that doesn't have to do with it is anything that's inside this main content container. So, we'll go ahead and select this, and we'll go all the way down. And it will say here, this is where it says end of main content very convenient. So, we'll press shift and we'll select all of that content and we'll go ahead and wipe that. Okay. So now, we're ready to start writing our menu categories, HTML, and if we look at this page in the browser, well this on is index.HTML. But now, if we click on the menu tile will actually end up at menu-categories.HTML, as you could see we only have the header, the footer, there is no content in the page. So, let's go ahead and start filling it out. 
+
+    </p>
+    </div>
+      </div>
+    </div>
+
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
